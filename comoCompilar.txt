@@ -1,0 +1,7 @@
+compilador: g++
+
+compilar: g++ main.cpp -o main
+
+rodar normal: ./main.exe
+
+rodar terminal + arquivo saida: ./main.exe | Tee-Object -FilePath "relatorio_simulacao.txt"
